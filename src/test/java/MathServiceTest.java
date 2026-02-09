@@ -15,6 +15,13 @@ public class MathServiceTest {
         int a = 5;
         int b = 4;
         int result = this.mathService.sumar(a,b);
+        assertEquals(result,9);
+    }
+    public void TestResta(){
+        int a = 5;
+        int b = 4;
+        int result = this.mathService.resta(a,b);
+        assertEquals(result, 54);
     }
 }
 //@author Jav8-dev|@version 1.0.
